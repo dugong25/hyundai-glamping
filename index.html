@@ -31,6 +31,9 @@
     .stop h3{font-size:14px;color:#d7b77a}.route-name{color:var(--ink)}
     .stay-map{display:block;width:100%;max-width:100%;height:auto;max-height:none;object-fit:contain;object-position:center;margin:14px auto 0;border-radius:12px;cursor:zoom-in}.map-viewer{position:fixed;inset:0;z-index:1000;background:#07100df2;display:none;align-items:center;justify-content:center;padding:12px}.map-viewer.open{display:flex}.map-viewer img{display:block;width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}.map-viewer button{position:absolute;top:12px;right:12px;border:1px solid #ffffff70;border-radius:99px;background:#142a25;color:white;padding:9px 13px;font-size:14px}
     .top{background:var(--paper);color:var(--ink)}.hero h1{color:#edf0e6}.quick-nav a{border-color:#ffffff3c;color:#e8d5a7}.quick-nav a:active{background:#29473c}.map{background:#d7b77a;color:#1a2c25}.day-label{background:#29473c;color:#e8d5a7}.tmap-link{background:#203c34;border-color:var(--line)}.tmap-link:active{background:#29473c}.todo-row input,.check-row input{color-scheme:light;accent-color:#d7b77a;background-color:#fff}
+
+    .stop:not(.travel-stop)>div{display:flex;flex-direction:column;align-items:stretch;gap:0}.stop:not(.travel-stop) .place-title-row,.stop:not(.travel-stop)>div>h3{order:1}.stop:not(.travel-stop) .kind{order:3;margin:8px 0 0;font-size:12px;color:var(--muted)}.stop:not(.travel-stop) .address{order:2;margin:3px 0 0}.stop:not(.travel-stop) .stop-note{order:4}
+    .stop:first-child>div{display:flex;flex-direction:column;align-items:stretch;gap:0}
 </style>
 </head>
 <body>
