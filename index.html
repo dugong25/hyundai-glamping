@@ -43,13 +43,13 @@
     @media(min-width:620px){.stop:not(.travel-stop){grid-template-columns:120px minmax(0,1fr);column-gap:16px}}
 </style>
 <style>.sync-status{margin:10px auto 0;padding:9px 12px;border:1px solid #38594d;border-radius:10px;background:#203c34;color:#edf0e6;font-size:12px;line-height:1.5;overflow-wrap:anywhere}.sync-status code{font-size:11px;user-select:all}.sync-status button{margin-left:7px;border:1px solid #dfc78f;color:#dfc78f;background:transparent;border-radius:8px;padding:4px 8px;font:inherit}</style><style>
-.hero{position:relative;padding-right:68px}
+.top{position:relative;z-index:101;overflow:visible}.hero{position:relative;padding-right:68px;overflow:visible}
 .cloud-sync{position:absolute;right:20px;bottom:16px;color:#777d77;z-index:10}
 #syncIndicator{display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:4px;border:0;background:transparent;color:inherit;cursor:pointer;border-radius:50%}
 #syncIndicator:focus-visible{outline:2px solid currentColor;outline-offset:2px}
 .cloud-sync[data-state="shared"]{color:#c5d9bd}
 .cloud-check{display:none}.cloud-sync[data-state="shared"] .cloud-check{display:block}.cloud-sync[data-state="shared"] .cloud-cross{display:none}
-#syncPanel{position:absolute;right:0;top:48px;width:min(290px,calc(100vw - 40px));padding:14px 16px;border:1px solid #d8d8ca;border-radius:12px;background:#fffdf5;color:#37483e;font-size:13px;line-height:1.7;box-shadow:0 8px 24px #0002}
+#syncPanel{position:absolute;right:0;bottom:48px;width:min(290px,calc(100vw - 40px));padding:14px 16px;border:1px solid #d8d8ca;border-radius:12px;background:#fffdf5;color:#37483e;font-size:13px;line-height:1.7;box-shadow:0 8px 24px #0002}
 #syncPanel[hidden]{display:none}
 #syncPanel button{margin-top:8px}
 </style></head>
